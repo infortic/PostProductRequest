@@ -22,7 +22,6 @@ Dentro do diretório root da aplicação executar os passos abaixo para rodar os
 
 verifique o resultado do teste no console.
 
-![alt text](imgs/octo_events.png)
 
 #### 2 -  buildar :
 `$ mvn clean install #buildando o pacote da aplicação`
