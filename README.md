@@ -35,14 +35,18 @@ e atendendo requisições através da porta cadastrada no arquivo `application.y
 
 É possível utilizar o client do swagger através da url [http://localhost:8084/swagger-ui.html]
 
-### 3.1 Testando pelo Swagger
+### 4 Testando pelo Swagger
 
 Na tela inicial do Swagger clicke no link `product-rest`.
 
 ![alt text](imgs/Swagger1.png)
 
 
-#### 4 Criar o tunel para acessar os endpoints externamente
+Em seguinda click no path `POST /product/save`.
+
+![alt text](imgs/Swagger2.png)
+
+### 4.1 Criar o tunel para acessar os endpoints externamente
 
 Utilizamos o `ngrok` para criar uma ponte para da nossa API externamente.
 
