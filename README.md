@@ -39,12 +39,20 @@ e atendendo requisições através da porta cadastrada no arquivo `application.y
 
 Na tela inicial do Swagger clicke no link `product-rest`.
 
-![alt text](imgs/Swagger1.png)
+![alt text](imgs/Swagger10.png)
 
 
 Em seguinda click no path `POST /product/save`.
 
 ![alt text](imgs/Swagger2.png)
+
+Agora você pode clicar no exaplo de objeto que o servidor esta esperando.
+
+![alt text](imgs/Swagger3.png)
+
+Se vc desejar poderar alterar o objeto antes de realizar o test de requicição, para isso ultiize o text box Value. 
+
+![alt text](imgs/Swagger4.png)
 
 ### 4.1 Criar o tunel para acessar os endpoints externamente
 
