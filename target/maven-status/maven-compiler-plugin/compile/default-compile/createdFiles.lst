@@ -1,0 +1,6 @@
+com\endpointprodutos\config\SwaggerConfig.class
+com\endpointprodutos\rest\ProductRest$1.class
+com\endpointprodutos\AndPointProdutosApplication.class
+com\endpointprodutos\entity\Product.class
+com\endpointprodutos\util\ValidityObject.class
+com\endpointprodutos\rest\ProductRest.class
