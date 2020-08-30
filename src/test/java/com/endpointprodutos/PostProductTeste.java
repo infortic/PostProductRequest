@@ -33,8 +33,8 @@ public class PostProductTeste {
 		product.setId(new Long(0));
 		product.setNome("Mesa");
 		ResponseEntity<?> response = this.restTemplet.postForEntity("/product/save", product, Product.class);
-		System.out.println("Primeira solicitação retornar 200-ok");
 		Assertions.assertThat(response.getStatusCodeValue()).isEqualTo(200);
+		System.out.println("return 200-ok");
 	}
 	
 	@Test
@@ -43,8 +43,8 @@ public class PostProductTeste {
 		product.setId(new Long(0));
 		product.setNome("Mesa");
 		ResponseEntity<?> response = this.restTemplet.postForEntity("/product/save", product, Product.class);
-		System.out.println("Primeira solicitação retornar 200-ok");
 		Assertions.assertThat(response.getStatusCodeValue()).isEqualTo(403);
+		System.out.println("return 403-forbidden");
 	}
 	
 }

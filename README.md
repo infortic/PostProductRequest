@@ -14,11 +14,15 @@ Abaixo imagem ilustrativa do ciclo de vida da requisição:
 `{diretório root}\src\main\resources\application.properties`
 
 #### 1 - Testando a Aplicação
-##Obs para rodar os testes lembre-se que o maven precisa estar instalado. 
+`Obs para rodar os testes lembre-se que o maven precisa estar instalado.`
 
-Dentro do diretório root da aplicação executar os passos abaixo.
+Dentro do diretório root da aplicação executar os passos abaixo para rodar os tests automatizados.
 
 `$ mvn test #Para rodar os testes`
+
+verifique o resultado do teste no console.
+
+![alt text](imgs/octo_events.png)
 
 #### 2 -  buildar :
 `$ mvn clean install #buildando o pacote da aplicação`
@@ -62,4 +66,7 @@ Podemos ver o retorno do servidor em Response Body e Resonse Code.
 
 ![alt text](imgs/Swagger6.png)
 
-Lembrando que neste teste é esperando o erro 403 em caso de requisições repetidas num intervalo de 10minutos
+Lembrando que neste teste é esperando o erro 403 em caso de requisições repetidas num intervalo de 10minutos.
+
+
+

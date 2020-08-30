@@ -29,10 +29,8 @@ public class ProductRest{
 	@Autowired
 	private ValidityObject validityObject;
 	Boolean executando = false;
-	
 	Product productValidade = new Product();
 
-	
 	@ApiOperation(value = "Post Issues Events")
 	@PostMapping(path = "/save")
 	public ResponseEntity<?> saveProduct(@RequestBody Product product) throws InterruptedException {
