@@ -34,6 +34,16 @@ public class ProductRest{
 	@ApiOperation(value = "Post Issues Events")
 	@PostMapping(path = "/save")
 	public ResponseEntity<?> saveProduct(@RequestBody Product product) throws InterruptedException {
+		
+		
+		/*
+		 *          ******Melhorias*******
+		 *   1- Usar o patter observer para manipular o 
+		 *   objeto productValidade e assim remover 
+		 *   regras de negocio que nao deveria estar neste metodo
+		 */
+		
+		
 		Long productId = productValidade.getId();
 		if (productId == null) {
 			this.productValidade = product;
